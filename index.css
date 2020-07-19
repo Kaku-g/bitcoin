@@ -1,0 +1,31 @@
+body{
+    background:#292b2c;
+
+}
+#euros{
+    animation:slideright infinite ease;
+}
+@keyframes sideright{
+    0%{
+        opacity:0;
+    }
+    100%{
+    opacity:1;
+    }
+}
+#icon{
+    font-size: 3.2rem;
+}
+ .jump{
+     animation: fadeIn infinite ease;
+
+
+ }
+ @keyframes fadeIn{
+     0%{
+         opacity:0;
+     }
+     100%{
+         opacity:1;
+     }
+ }
